@@ -16,7 +16,9 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => 'SocialApp',
+
+    // 'name' => env('APP_NAME', 'SocialApp'),
 
     /*
     |--------------------------------------------------------------------------

@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.main-content {
+    flex-grow: 1; /* Grow to fill remaining width */
+    padding: 20px; /* Add padding as needed */
+    margin-left: 250px; /* Make room for the fixed sidebar */
+    background-color: #fff; /* Content background color */
+    overflow-y: auto; /* Enable scrolling for main content */
+}
+
+

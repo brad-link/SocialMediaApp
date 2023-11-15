@@ -16,7 +16,6 @@ class PostTableSeeder extends Seeder
     {
         $p1 = new Post;
         $p1->user_id = 2;
-        $p1->title = "This is a Post";
         $p1->content = "This is the content";
         $p1->likes = 10;
         $p1->save();
